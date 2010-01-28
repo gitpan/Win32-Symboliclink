@@ -1,0 +1,34 @@
+DWORD   T_IV
+char		T_CHAR
+char *	T_PV
+BOOL		T_BOOL
+#############################################################################
+INPUT
+
+T_IV
+	$var = ($type)SvIV($arg)
+
+T_CHAR
+	$var = (char)*SvPV_nolen($arg)
+	
+T_PV
+	$var = ($type)SvPV_nolen($arg)
+
+T_BOOL
+	$var = (bool)SvTRUE($arg)	
+
+#############################################################################
+OUTPUT
+
+
+T_IV
+	sv_setiv($arg, (IV)$var);
+	
+T_BOOL
+	$arg = boolSV($var);
+	
+T_CHAR
+	sv_setpvn($arg, (char *)&$var, 1);
+	
+T_PV
+	sv_setpv((SV*)$arg, $var);	

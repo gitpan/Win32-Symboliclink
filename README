@@ -1,0 +1,27 @@
+Win32-Symboliclink version 0.01
+===============================
+
+With this module you can create a symbolic link under Windows Vista and higher.
+Required is Windows Vista and higher.
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   nmake
+   nmake ppd
+
+CHANGES
+
+26.01.2010		First Version
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2010 by Henrik P.
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself, either Perl version 5.10.1 or,
+at your option, any later version of Perl 5 you may have available.
+
+

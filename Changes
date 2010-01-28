@@ -1,0 +1,6 @@
+Revision history for Perl extension Win32::Symboliclink.
+
+0.01  Tue Jan 26 21:03:48 2010
+	- original version; created by h2xs 1.23 with options
+		-A -n Win32::Symboliclink
+

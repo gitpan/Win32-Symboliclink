@@ -1,0 +1,8 @@
+<SOFTPKG NAME="Win32-Symboliclink" VERSION="0.01">
+    <ABSTRACT>Perl extension to create a symbolic link.</ABSTRACT>
+    <AUTHOR>A. U. Thor &lt;hendriks@cpan.org&gt;</AUTHOR>
+    <IMPLEMENTATION>
+        <ARCHITECTURE NAME="MSWin32-x86-multi-thread-5.10" />
+        <CODEBASE HREF="Win32-Symboliclink.zip" />
+    </IMPLEMENTATION>
+</SOFTPKG>

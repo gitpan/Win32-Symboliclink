@@ -1,0 +1,8 @@
+Changes
+Makefile.PL
+MANIFEST
+ppport.h
+README
+Symboliclink.xs
+t/Win32-Symboliclink.t
+lib/Win32/Symboliclink.pm
